@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>17e1e86b-e9f7-4576-ae3e-867ec02efbcc</Guid>
+    <Name>Raider Faction Rogue XCOM</Name>
+    <Description>Rogue agents detected.</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>Raider Faction Rogue XCOM</AssemblyName>
+    <RootNamespace>Raider Faction Rogue XCOM</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Content" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\RaiderFactionRogueXCOM\" />
+    <Folder Include="Src\RaiderFactionRogueXCOM\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XComAI.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComContent.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameCore.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData_CharacterStats.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComNameList.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\EW_MEC_WOTC.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\GameUnit_GenericHumanHostile.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\GameUnit_MecHumanHostile.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\MrKX1WTier1.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\shivperks.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_MrKWeapons.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\XEU_SHIV.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Localization\RaiderFactionRogueXCOM.int">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Src\RaiderFactionRogueXCOM\Classes\RogueXCom_AbilityTarget_Single_CCS.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\RaiderFactionRogueXCOM\Classes\X2AbilitySet_RogueXCom.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\RaiderFactionRogueXCOM\Classes\X2AIBTActions_MedicBehavior.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\RaiderFactionRogueXCOM\Classes\X2Characters_RogueXCOM.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\RaiderFactionRogueXCOM\Classes\X2DownloadableContentInfo_RaiderFactionRogueXCOM.uc" />
+    <Content Include="Src\RaiderFactionRogueXCOM\Classes\X2Effect_RogueAbsorptionFields.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\RaiderFactionRogueXCOM\Classes\X2Effect_RogueTacticalSense.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\RaiderFactionRogueXCOM\Classes\X2Effect_Sentinel_LW.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\RaiderFactionRogueXCOM\Classes\X2EventListener_TacticalUI.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\RaiderFactionRogueXCOM\Classes\X2Helpers_RogueXCom.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\RaiderFactionRogueXCOM\Classes\X2Items_RogueXCom.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\RaiderFactionRogueXCOM\Classes\X2SitRepEffect_AddTeam.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\RaiderFactionRogueXCOM\Classes\X2Sitrep_RogueXCom.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\RaiderFactionRogueXCOM\Classes\X2TargetingMethod_CollateralDamage.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\RaiderFactionRogueXCOM\Classes\XGCharacterGenerator_RogueXcom.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\RaiderFactionRogueXCOM\Classes\XGCharacterGenerator_RogueXCom_Mec.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
